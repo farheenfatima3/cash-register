@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Cash Register</title>
+</head>
+
+<body>
+    <div class="container">
+    <h1> Enter the amount which you want to know how much change to be taken</h1>
+    <p>Enter bill</p>
+    <label for="bill-amount">Bill amount</label>
+    <input id="bill-amount" type="text">
+    <label for="cash-given">Cash given:</label>
+    <input id="cash-given" type="text">
+
+    <button id="check-button">Check</button>
+    <p id="error-message"></p>
+
+<table class="change-table">
+    <caption>Return the Cash</caption>
+  
+       <tr>
+           <th>No of Notes</th>
+           <td class="no-Of-Notes"></td>
+           <td class="no-Of-Notes"></td>
+           <td class="no-Of-Notes"></td>
+           <td class="no-Of-Notes"></td>
+           <td class="no-Of-Notes"></td>
+           <td class="no-Of-Notes"></td>
+           <td class="no-Of-Notes"></td>
+           <td class="no-Of-Notes"></td>
+           <td class="no-Of-Notes"></td>
+           <td class="no-Of-Notes"></td>
+          
+       </tr>
+       <tr>
+        <th>Notes</th>
+        <td>2000</td>
+        <td>1000</td>
+        <td>500</td>
+        <td>200</td>
+        <td>100</td>
+        <td>50</td>
+        <td>20</td>
+        <td>10</td>
+        <td>5</td>
+        <td>1</td>
+        
+       </tr>
+</table>   
+</div>
+
+
+
+</body>
+<script src="./index.js" type="text/javascript"></script>
+
+</html>
